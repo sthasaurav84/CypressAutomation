@@ -13,7 +13,7 @@ describe('TestSuite', function()
         //2) check Value presence in specific rows and columns
         cy.get('table[name=BookTable] > tbody > tr:nth-child(2) > td:nth-child(3)').contains('Selenium').should('be.visible')
         
-        //Verify the book name "Master in Java" whose author is Amod
+        //Verify the book name "Master in Java" whose author is Amod"
         cy.get('table[name=BookTable]>tbody>tr td:nth-child(2)').each(($e,index,$list) => {
 
             const text=$e.text()
