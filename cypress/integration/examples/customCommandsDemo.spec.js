@@ -11,13 +11,13 @@ describe('CustomSuite', function() {
 
         cy.login('admin1@yourstore.com', 'admin') //invalid
         cy.title().should('be.equal', 'Your store. Login')
-    }) 
+    }) //testing new functionality
 
     it('Add customer', function()
     {
         //Login Script
         cy.login('admin@yourstore.com', 'admin')
-        //Script for adding new customer
+        //Script for adding new customer 
         cy.log('Adding customer.........')
     }) 
 

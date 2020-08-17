@@ -5,7 +5,7 @@ describe('UI Elements', function()
 
     it('Verify Inputbox & Radio Buttons', function() 
      {
-         cy.visit("http://newtours.demoaut.com/")  //visit URL
+         cy.visit("https://newtours.demoaut.com/")  //visit URL
 
          cy.url().should('include', 'newtours') //verify URL should include newtours
 
