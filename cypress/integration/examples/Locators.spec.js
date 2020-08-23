@@ -1,5 +1,5 @@
 ///<reference types="cypress"/>
-
+/*
 describe('Locating elements', function()
 {
     it('Verify type of locators', function()
@@ -26,3 +26,4 @@ describe('Locating elements', function()
 
     })
 })
+*/

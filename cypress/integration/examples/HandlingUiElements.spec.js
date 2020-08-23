@@ -1,5 +1,5 @@
 ///<reference types="cypress"/>
-
+/*
 describe('UI Elements', function()  
 {
 
@@ -26,4 +26,5 @@ describe('UI Elements', function()
      }
 )     
 }
-)
+) 
+*/
