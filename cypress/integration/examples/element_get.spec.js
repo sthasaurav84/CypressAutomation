@@ -4,7 +4,9 @@ describe("Testing Get elements", () => {
         cy.visit('https://www.freshworks.com/')
         cy.contains('Platform').click()
 
-        cy.url().should('include', '/platform')
+        cy.url().should('include', '/platform') 
+        // adding test for working on feature
+        
     })
 
 })
