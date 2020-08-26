@@ -23,7 +23,8 @@ describe('TestSuite', function()
         cy.go(1) //forward
         cy.title().should('eq', 'nopCommerce demo store. Register') 
 
-        cy.reload()
+        cy.reload() //test
+        
     })
     
   })
