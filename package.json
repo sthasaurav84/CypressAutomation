@@ -10,7 +10,11 @@
   "author": "saurav",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^4.5.0",
-    "typescript": "^3.9.3"
+    "cypress": "^4.12.1",
+    "mocha": "^8.1.2",
+    "mochawesome": "^6.1.1",
+    "mochawesome-merge": "^4.1.0",
+    "mochawesome-report-generator": "^5.1.0",
+    "typescript": "^3.9.7"
   }
 }
